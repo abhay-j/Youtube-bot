@@ -27,6 +27,8 @@ def get_videos_from_channel(channel_id):
         
         response = request.execute()
         
+        
+        
         for item in response['items']:
             video_ids.append(item['id']['videoId'])
         
@@ -38,4 +40,42 @@ def get_videos_from_channel(channel_id):
     return video_ids
         
 
-print(get_videos_from_channel(CHANNEL_ID))
+
+
+#function to fetch the transcripts of a video 
+def get_transcript(video_id):
+    try:
+        transcript = YouTubeTranscriptApi.get_transcript(video_id)
+        return transcript
+    except Exception as e:
+        print(f"transcript not available for the video {video_id}: {e}")
+        return None
+
+
+
+
+
+#function to get transcripts for all videos on a channel
+def get_all_transcripts(channel_id):
+    video_ids = get_videos_from_channel(channel_id)
+    transcripts = {}
+    
+    for video_id in video_ids:
+        print(f"getting transcript for video id: ${video_id}")
+        transcript = get_transcript(video_id)
+        
+        if transcript:
+            transcripts[video_id] = transcript
+    
+    #save transcripts to a json file 
+    with open('transcripts.json', 'w') as f:
+        json.dump(transcripts, f, indent=4)
+    
+    print(f"Transcripts saved to 'transcripts.json'")
+    
+
+# Run the script
+get_all_transcripts(CHANNEL_ID)
+        
+        
+    
