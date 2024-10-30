@@ -46,7 +46,7 @@ for index, (video_id, transcript) in enumerate(data.items(), start=1):
         
         cleaned_data[video_id] = {
              'published_at' : video_detials[video_id]['published_at'],
-            #  'title' : video_detials[video_id]['title'],
+              'title' : video_detials[video_id]['title'],
              'text' : f"{video_detials[video_id]['title']} {clean_text}",
              'url' : f"https://www.youtube.com/watch?v={video_id}"
              
