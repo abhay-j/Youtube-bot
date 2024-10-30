@@ -2,7 +2,7 @@
 from googleapiclient.discovery import build
 from youtube_transcript_api import YouTubeTranscriptApi
 import json
-API_KEY = "YOUR_API_KEY"
+API_KEY = "AIzaSyBSa4LpEW1P5rQ9uWrPuJEDxf_NBByzn1I"
 CHANNEL_ID = "UCphwJynbSnC0XPY7Vh6qFbQ"
 
 #Initialize your api 
