@@ -290,8 +290,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 For any questions or suggestions, please contact:
 
 - **Name:** Abhay Joshi
-- **Email:** abhayjoshi@example.com
-- **LinkedIn:** [linkedin.com/in/abhayjoshi](https://www.linkedin.com/in/abhay-joshi99/)
+- **Email:** jabhay2012@gmail.com
+- **LinkedIn:** [https://www.linkedin.com/in/abhay-joshi99/](https://www.linkedin.com/in/abhay-joshi99/)
 
 ---
 
