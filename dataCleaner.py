@@ -54,7 +54,16 @@ for index, (video_id, transcript) in enumerate(data.items(), start=1):
         
         print(f"processed {index}/{total_videos} videos")
 
-
+    """
+    data=[[h1,h2,h3],[a,b,c]]
+    res=""
+    for row in data:
+        res+=",".join(row)
+        res+="\n"
+    res="h1,h2,h3\na,b,c"
+    with open("file.csv","w) as file:
+        file.write(res)
+    """
 
 
 with open("cleaned_data.json","w") as file:
