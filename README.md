@@ -283,7 +283,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+<!-- This project is licensed under the [MIT License](LICENSE). -->
 
 ## Contact
 
@@ -291,7 +291,7 @@ For any questions or suggestions, please contact:
 
 - **Name:** Abhay Joshi
 - **Email:** abhayjoshi@example.com
-- **LinkedIn:** [linkedin.com/in/abhayjoshi](https://linkedin.com/in/abhayjoshi)
+- **LinkedIn:** [linkedin.com/in/abhayjoshi](https://www.linkedin.com/in/abhay-joshi99/)
 
 ---
 
